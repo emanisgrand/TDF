@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://drjgc18m3tm4n"]
+
+[ext_resource type="Script" path="res://DifficultyManager/DifficultyManager.gd" id="1_hgk7s"]
+
+[node name="DifficultyManager" type="Node"]
+script = ExtResource("1_hgk7s")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

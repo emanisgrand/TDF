@@ -24,6 +24,7 @@ func _process(delta: float) -> void:
 	if progress_ratio == 1.0:
 		base.take_damage()
 		set_process(false)
+		queue_free()
 
 func play_damage_anim()->void:
 	if animation_player:

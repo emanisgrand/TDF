@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://htolxaurukdk"]
+
+[ext_resource type="PackedScene" uid="uid://cghj6bc47xwgv" path="res://Assets/Castle Meshes/2_Bendy.glb" id="1_pv7j5"]
+[ext_resource type="Script" path="res://scripts/Base.gd" id="2_kh8hl"]
+
+[node name="BendyBase" groups=["base"] instance=ExtResource("1_pv7j5")]
+script = ExtResource("2_kh8hl")
